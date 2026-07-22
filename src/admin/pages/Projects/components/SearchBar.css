@@ -1,0 +1,19 @@
+.search-bar input{
+
+    width:100%;
+
+    padding:16px;
+
+    border:none;
+
+    outline:none;
+
+    border-radius:14px;
+
+    background:rgba(255,255,255,.06);
+
+    color:white;
+
+    border:1px solid rgba(255,255,255,.08);
+
+}

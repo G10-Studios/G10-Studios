@@ -1,0 +1,127 @@
+.project-form-card{
+
+    background:rgba(255,255,255,.05);
+
+    border:1px solid rgba(255,255,255,.08);
+
+    backdrop-filter:blur(18px);
+
+    border-radius:24px;
+
+    padding:30px;
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:20px;
+
+}
+
+.project-form-card h2{
+
+    color:white;
+
+    margin-bottom:10px;
+
+}
+
+.project-form-card input,
+.project-form-card textarea,
+.project-form-card select{
+
+    width:100%;
+
+    padding:16px 18px;
+
+    font-size:16px;
+
+    color:white;
+
+    background:rgba(255,255,255,.06);
+
+    border:1px solid rgba(255,255,255,.08);
+
+    border-radius:14px;
+
+    outline:none;
+
+    transition:.25s;
+
+    box-sizing:border-box;
+
+}
+
+.project-form-card input:focus,
+.project-form-card textarea:focus,
+.project-form-card select:focus{
+
+    border-color:#7c3aed;
+
+    box-shadow:0 0 0 3px rgba(124,58,237,.25);
+
+}
+
+.project-form-card textarea{
+
+    min-height:140px;
+
+    resize:vertical;
+
+}
+
+.project-form-card select{
+
+    cursor:pointer;
+
+}
+
+.project-form-card label{
+
+    color:white;
+
+    display:flex;
+
+    align-items:center;
+
+    gap:10px;
+
+}
+
+.project-form-card label input{
+
+    width:auto;
+
+}
+
+.project-form-card button{
+
+    margin-top:10px;
+
+    padding:16px;
+
+    font-size:17px;
+
+    font-weight:600;
+
+    border:none;
+
+    border-radius:14px;
+
+    background:#7c3aed;
+
+    color:white;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+.project-form-card button:hover{
+
+    transform:translateY(-2px);
+
+    background:#6d28d9;
+
+}

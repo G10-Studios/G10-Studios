@@ -1,0 +1,25 @@
+.projects-page{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:30px;
+
+    color:white;
+
+}
+
+.projects-header h1{
+
+    font-size:42px;
+
+    margin-bottom:10px;
+
+}
+
+.projects-header p{
+
+    color:#cbd5e1;
+
+}

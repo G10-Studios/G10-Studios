@@ -1,0 +1,216 @@
+.dashboard-home{
+
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    gap:30px;
+
+}
+
+/* ================= HERO ================= */
+
+.hero-card{
+
+    width:100%;
+    min-height:420px;
+
+    padding:60px;
+
+    border-radius:30px;
+
+    background:rgba(15,23,42,.45);
+
+    backdrop-filter:blur(18px);
+
+    border:1px solid rgba(255,255,255,.08);
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    overflow:hidden;
+
+}
+
+.hero-left{
+
+    width:100%;
+    max-width:1100px;
+
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+
+    text-align:center;
+
+}
+
+.tag{
+
+    color:#bba7e7;
+
+    letter-spacing:3px;
+
+    font-weight:700;
+
+    margin-bottom:20px;
+
+}
+
+.hero-left h1{
+
+    font-size:60px;
+
+    color:white;
+
+    margin-bottom:20px;
+
+    line-height:1.1;
+
+}
+
+.subtitle{
+
+    font-size:20px;
+
+    color:#d1d5db;
+
+    line-height:1.8;
+
+    margin-bottom:40px;
+
+}
+
+.hero-buttons{
+
+    display:flex;
+
+    gap:20px;
+
+}
+
+.primary-btn{
+
+    padding:16px 34px;
+
+    border:none;
+
+    border-radius:14px;
+
+    background:linear-gradient(135deg,#7c3aed,#9333ea);
+
+    color:white;
+
+    font-size:17px;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+.primary-btn:hover{
+
+    transform:translateY(-3px);
+
+    box-shadow:0 0 25px rgba(139,92,246,.5);
+
+}
+
+.secondary-btn{
+
+    padding:16px 34px;
+
+    border-radius:14px;
+
+    border:1px solid rgba(255,255,255,.15);
+
+    background:rgba(255,255,255,.05);
+
+    color:white;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+.secondary-btn:hover{
+
+    background:rgba(255,255,255,.1);
+
+}
+
+/* ===========================
+   QUICK ACTIONS
+=========================== */
+
+.quick-actions{
+
+    width:100%;
+
+    max-width:950px;
+
+    margin-top:50px;
+
+    display:grid;
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:25px;
+
+}
+
+.action-card{
+
+    text-decoration:none;
+
+    color:white;
+
+    padding:30px;
+
+    border-radius:20px;
+
+    background:rgba(18,25,45,.35);
+
+    backdrop-filter:blur(18px);
+
+    border:1px solid rgba(255,255,255,.08);
+
+    transition:.35s;
+
+    cursor:pointer;
+}
+
+.action-card:hover{
+
+    transform:translateY(-8px);
+
+    border-color:#8b5cf6;
+
+    box-shadow:
+        0 15px 40px rgba(139,92,246,.25);
+}
+
+.action-icon{
+
+    font-size:38px;
+
+    color:#9b5cff;
+
+    margin-bottom:18px;
+}
+
+.action-card h3{
+
+    font-size:24px;
+
+    margin-bottom:10px;
+}
+
+.action-card p{
+
+    color:#cbd5e1;
+
+    line-height:1.6;
+}

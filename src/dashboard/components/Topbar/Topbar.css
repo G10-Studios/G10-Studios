@@ -1,0 +1,40 @@
+.topbar {
+    height: 70px;
+
+    margin: 20px 20px 0 0;
+    padding: 0 30px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background: rgba(15, 23, 42, 0.55);
+
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+
+    border: 1px solid rgba(255, 255, 255, 0.08);
+
+    border-radius: 24px;
+
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.35);
+
+    color: white;
+
+    z-index: 5;
+}
+
+.topbar h2 {
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
+.topbar-right {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.85);
+}

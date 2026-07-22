@@ -1,0 +1,42 @@
+.admin-topbar{
+
+    width:100%;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    padding:25px 35px;
+
+    background:rgba(15,23,42,.45);
+
+    backdrop-filter:blur(18px);
+    -webkit-backdrop-filter:blur(18px);
+
+    border-bottom:1px solid rgba(255,255,255,.08);
+
+}
+
+.admin-topbar h2{
+
+    color:white;
+
+    font-size:28px;
+
+    margin-bottom:8px;
+
+}
+
+.admin-topbar p{
+
+    color:#cbd5e1;
+
+}
+
+.admin-topbar span{
+
+    color:#8b5cf6;
+
+    font-weight:600;
+
+}

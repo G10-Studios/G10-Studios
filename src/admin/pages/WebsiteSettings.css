@@ -1,0 +1,18 @@
+.website-settings{
+    color:white;
+    padding:30px;
+}
+
+.website-settings form{
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+
+.website-settings input{
+    padding:14px;
+}
+
+.website-settings button{
+    padding:14px;
+}

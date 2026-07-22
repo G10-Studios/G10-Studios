@@ -1,0 +1,41 @@
+.dashboard-layout{
+    display:flex;
+    min-height:100vh;
+
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+
+    position:relative;
+}
+
+.dashboard-layout::before{
+    content:"";
+    position:absolute;
+    inset:0;
+
+    background:rgba(5,10,20,.45);
+
+    z-index:0;
+}
+
+.dashboard-main{
+    flex:1;
+
+    display:flex;
+    flex-direction:column;
+
+    position:relative;
+    z-index:1;
+
+    padding:20px;
+}
+
+.dashboard-content{
+    flex:1;
+
+    padding:30px;
+
+    color:white;
+}

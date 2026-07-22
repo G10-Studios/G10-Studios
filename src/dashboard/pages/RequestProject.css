@@ -1,0 +1,329 @@
+/* ==========================================
+   REQUEST PROJECT PAGE
+========================================== */
+
+.request-project{
+
+    width:100%;
+
+    display:flex;
+
+    justify-content:center;
+
+    padding:20px 0;
+
+}
+
+
+/* ==========================================
+   CARD
+========================================== */
+
+.request-card{
+
+    width:100%;
+
+    max-width:1000px;
+
+    padding:45px;
+
+    border-radius:24px;
+
+    background:rgba(15,23,42,.35);
+
+    backdrop-filter:blur(25px);
+    -webkit-backdrop-filter:blur(25px);
+
+    border:1px solid rgba(255,255,255,.08);
+
+    box-shadow:
+        0 20px 60px rgba(0,0,0,.45);
+
+    color:white;
+
+    transition:.35s;
+
+}
+
+.request-card:hover{
+
+    border-color:rgba(139,92,246,.35);
+
+    box-shadow:
+        0 20px 60px rgba(0,0,0,.45),
+        0 0 30px rgba(139,92,246,.12);
+
+}
+
+
+/* ==========================================
+   HEADER
+========================================== */
+
+.request-header{
+
+    margin-bottom:40px;
+
+    text-align:center;
+
+}
+
+.request-header h1{
+
+    font-size:44px;
+
+    margin-bottom:15px;
+
+}
+
+.request-header p{
+
+    color:#cbd5e1;
+
+    font-size:17px;
+
+    line-height:1.8;
+
+}
+
+
+/* ==========================================
+   FORM
+========================================== */
+
+.project-form{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:25px;
+
+}
+
+
+/* ==========================================
+   INPUT GROUP
+========================================== */
+
+.form-group{
+
+    display:flex;
+
+    flex-direction:column;
+
+}
+
+.form-group label{
+
+    margin-bottom:10px;
+
+    font-weight:600;
+
+    color:white;
+
+}
+
+.form-group label span{
+
+    color:#8b5cf6;
+
+}
+
+
+/* ==========================================
+   INPUTS
+========================================== */
+
+.form-group input,
+.form-group textarea,
+.form-group select{
+
+    width:100%;
+
+    padding:16px 18px;
+
+    border-radius:14px;
+
+    border:1px solid rgba(255,255,255,.10);
+
+    background:rgba(17,24,39,.75);
+
+    color:white;
+
+    font-size:15px;
+
+    outline:none;
+
+    transition:.3s;
+
+}
+
+
+/* ==========================================
+   SELECT
+========================================== */
+
+.form-group select{
+
+    appearance:none;
+    -webkit-appearance:none;
+    -moz-appearance:none;
+
+    cursor:pointer;
+
+}
+
+.form-group select option{
+
+    background:#1f2937;
+
+    color:white;
+
+}
+
+
+/* ==========================================
+   TEXTAREA
+========================================== */
+
+.form-group textarea{
+
+    resize:vertical;
+
+    min-height:160px;
+
+}
+
+
+/* ==========================================
+   PLACEHOLDER
+========================================== */
+
+.form-group input::placeholder,
+.form-group textarea::placeholder{
+
+    color:rgba(255,255,255,.55);
+
+}
+
+
+/* ==========================================
+   FOCUS
+========================================== */
+
+.form-group input:focus,
+.form-group textarea:focus,
+.form-group select:focus{
+
+    border-color:#8b5cf6;
+
+    box-shadow:
+        0 0 0 3px rgba(139,92,246,.18),
+        0 0 18px rgba(139,92,246,.30);
+
+}
+
+
+/* ==========================================
+   TWO COLUMN GRID
+========================================== */
+
+.form-row{
+
+    display:grid;
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:20px;
+
+}
+
+
+/* ==========================================
+   SUBMIT BUTTON
+========================================== */
+
+.submit-btn{
+
+    margin-top:20px;
+
+    width:100%;
+
+    padding:18px;
+
+    border:none;
+
+    border-radius:14px;
+
+    background:linear-gradient(
+        135deg,
+        #7c3aed,
+        #9333ea
+    );
+
+    color:white;
+
+    font-size:18px;
+
+    font-weight:600;
+
+    cursor:pointer;
+
+    transition:.35s;
+
+}
+
+.submit-btn:hover{
+
+    transform:translateY(-4px);
+
+    background:linear-gradient(
+        135deg,
+        #8b5cf6,
+        #a855f7
+    );
+
+    box-shadow:
+        0 12px 35px rgba(139,92,246,.45);
+
+}
+
+
+/* ==========================================
+   RESPONSIVE
+========================================== */
+
+@media(max-width:768px){
+
+    .request-card{
+
+        padding:25px;
+
+    }
+
+    .request-header h1{
+
+        font-size:34px;
+
+    }
+
+    .form-row{
+
+        grid-template-columns:1fr;
+
+    }
+
+}
+
+.submit-btn:disabled{
+
+    opacity: .7;
+
+    cursor: not-allowed;
+
+    transform: none;
+
+    box-shadow: none;
+
+}
