@@ -147,26 +147,20 @@ export default function Projects() {
               <div className="project-footer">
 
                 <button
-                  className="visit-btn"
-                  onClick={() => {
+  className="visit-btn"
+  onClick={() => {
+    console.log(project.liveDemo);
 
-                    if (project.liveDemo) {
-
-                      window.open(
-                        project.liveDemo,
-                        "_blank"
-                      );
-
-                    }
-
-                  }}
-                >
-
-                  Visit Project
-
-                  <FaExternalLinkAlt />
-
-                </button>
+    if (project.liveDemo) {
+      window.open(project.liveDemo, "_blank", "noopener,noreferrer");
+    } else {
+      alert("https://bitflowsolution.is-best.net/index.html");
+    }
+  }}
+>
+  Visit Project
+  <FaExternalLinkAlt />
+</button>
 
               </div>
 
