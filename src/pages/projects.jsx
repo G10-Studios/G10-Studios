@@ -150,10 +150,10 @@ export default function Projects() {
                   className="visit-btn"
                   onClick={() => {
 
-                    if (project.websiteUrl) {
+                    if (project.liveDemo) {
 
                       window.open(
-                        project.websiteUrl,
+                        project.liveDemo,
                         "_blank"
                       );
 
